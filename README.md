@@ -1,75 +1,75 @@
-#Minimap Button Frame Readme
+# Minimap Button Frame Readme
 
 
-Installation is the same as most other WoW addons.  Simply unpack the file to your    Worldofwarcraft/Interface/Addons   directory.
+Installation is the same as most other WoW addons.  Simply unpack the file to your    Worldofwarcraft/Interface/Addons   directory.  
 
 
-This addon gathers up all of your minimap addon buttons and puts them into a movable frame.
+This addon gathers up all of your minimap addon buttons and puts them into a movable frame.  
 
-To Add a button not automatically gathered: Put your mouse over the button you want to add and type < /mbf add >.  
-Will not work on unnamed buttons.  Can also use a key binding.
-To Remove a button from the frame: put your mouse over the button and type < /mbf remove >.  A key binding can also be used.
-It will return to it's previous spot and not be gathered next time.  You can set it to be gathered again by using < /mbf add > on it.
+To Add a button not automatically gathered: Put your mouse over the button you want to add and type < /mbf add >.   
+Will not work on unnamed buttons.  Can also use a key binding.  
+To Remove a button from the frame: put your mouse over the button and type < /mbf remove >.  A key binding can also be used.  
+It will return to it's previous spot and not be gathered next time.  You can set it to be gathered again by using < /mbf add > on it.  
 
-Blizzard minimap buttons that are not always visible (Battleground, LFG) will only appear on the frame when they are normally shown.
-If Active Scanning is off they will not be gathered unless you do a < /mbf scan > while they are visible.
+Blizzard minimap buttons that are not always visible (Battleground, LFG) will only appear on the frame when they are normally shown.  
+If Active Scanning is off they will not be gathered unless you do a < /mbf scan > while they are visible.  
 
-##Commands:
+## Commands:
 
-   /mbf        - displays the command line options in the chat frame
-   /mbf add    - adds a non gathered button under the mouse to the frame
-   /mbf remove - removes a gathered button under the mouse from the frame
-   /mbf show   - shows the Main MBF Frame
-   /mbf hide   - hides the Main MBF Frame
-   /mbf info   - shows information about the object under the cursor
-   /mbf scan   - performs a manual scan for minimap buttons
-   /mbf config - shows the configuration screen
-   /mbf help   - shows command help and information
+   /mbf        - displays the command line options in the chat frame  
+   /mbf add    - adds a non gathered button under the mouse to the frame  
+   /mbf remove - removes a gathered button under the mouse from the frame  
+   /mbf show   - shows the Main MBF Frame  
+   /mbf hide   - hides the Main MBF Frame  
+   /mbf info   - shows information about the object under the cursor  
+   /mbf scan   - performs a manual scan for minimap buttons  
+   /mbf config - shows the configuration screen  
+   /mbf help   - shows command help and information  
 
-##Minimap Button:
+## Minimap Button:
 
-<Left-click>           - to show / hide the frame and all the buttons.
-<Shift-click>          - to show the config screen.
-<Right-click> and drag - to move the minimap button anywhere.
-
-
-##History
+`<Left-click>`           - to show / hide the frame and all the buttons.  
+`<Shift-click>`          - to show the config screen.  
+`<Right-click>` and drag - to move the minimap button anywhere.  
 
 
-0.9  - 	Initial Release
-0.9a - 	Fixed - Squeenix compatability.
-0.9b - 	Fixed - the reason for many of the addon buttons not populating.
-0.9c - 	Added - A Minimap button for the Addon.  It can be hidden through the config screen.
-	Added - an option to hide the frame background when the frame is locked.
-	Fixed - an Incompatibility with FishingBuddy.
-0.9d - 	Added - option to collect Blizzard Minimap Buttons. (Requested feature)
-	Added - Tooltip to minimap icon.
-	Fixed - Gatherer Incompatibility.
-	Fixed - Minimap button reappearing bug.
-	Fixed - Locked / Background hiding weird issue.
-	Change - Metamap temporary hack.
-	Change - Moved default position of the minimap button. (Left side instead of right, but won't affect anyone who's already moved it.)
-	Change - Options screen shown with double click instead of middle Click on the minimap button. 
-	Change - Code improvements in preparation of add / remove functionality.
-1.0  -  Added - Add / Remove functionality Implemented.  
-		- To Add: Put your mouse over the button you want to add and type /mbf add
-		- To Remove a button from the frame: put your mouse over the button and type /mbf remove
-	Fixed - Blizz Buttons return to their places when the option to gather them is unchecked.
-1.1  -  Added - Option to collect the MBF Button.
-	Fixed - Some parent frames not hidden.
-	Fixed - Party Member Frames not protected.
-	Fixed - ZoomIn and ZoomOut Buttons were always collected.
-	Fixed - MBF Button could be turned off with the frame hidden.
-	Fixed - Issue with buttons not displaying correctly when returned to the minimap.
-1.2  -  Added - Background Color changeable from the config screen
-	Added - Small Title Frame shown when unlocked for ease of dragging
-	Fixed - Another FrameLevel Issue
-	Fixed - RecipeRadar Incompatibility
-1.2a -  Fixed - Background Hidden when locked coloring issue
-1.3  -  Added - All Minimap buttons should be the same size
-	Added - Title Frame now contains the version number of MBF
-	Fixed - Title Frame is the same color as the background
-	Fixed - Many small potental Incompatabilities and code enhancements
+## History
+
+
+0.9  - 	Initial Release  
+0.9a - 	Fixed - Squeenix compatability.  
+0.9b - 	Fixed - the reason for many of the addon buttons not populating.  
+0.9c - 	Added - A Minimap button for the Addon.  It can be hidden through the config screen.  
+	Added - an option to hide the frame background when the frame is locked.  
+	Fixed - an Incompatibility with FishingBuddy.  
+0.9d - 	Added - option to collect Blizzard Minimap Buttons. (Requested feature)  
+	Added - Tooltip to minimap icon.  
+	Fixed - Gatherer Incompatibility.  
+	Fixed - Minimap button reappearing bug.  
+	Fixed - Locked / Background hiding weird issue.  
+	Change - Metamap temporary hack.  
+	Change - Moved default position of the minimap button. (Left side instead of right, but won't affect anyone who's already moved it.)  
+	Change - Options screen shown with double click instead of middle Click on the minimap button.   
+	Change - Code improvements in preparation of add / remove functionality.  
+1.0  -  Added - Add / Remove functionality Implemented.    
+		- To Add: Put your mouse over the button you want to add and type /mbf add  
+		- To Remove a button from the frame: put your mouse over the button and type /mbf remove  
+	Fixed - Blizz Buttons return to their places when the option to gather them is unchecked.  
+1.1  -  Added - Option to collect the MBF Button.  
+	Fixed - Some parent frames not hidden.  
+	Fixed - Party Member Frames not protected.  
+	Fixed - ZoomIn and ZoomOut Buttons were always collected.  
+	Fixed - MBF Button could be turned off with the frame hidden.  
+	Fixed - Issue with buttons not displaying correctly when returned to the minimap.  
+1.2  -  Added - Background Color changeable from the config screen  
+	Added - Small Title Frame shown when unlocked for ease of dragging  
+	Fixed - Another FrameLevel Issue  
+	Fixed - RecipeRadar Incompatibility  
+1.2a -  Fixed - Background Hidden when locked coloring issue  
+1.3  -  Added - All Minimap buttons should be the same size  
+	Added - Title Frame now contains the version number of MBF  
+	Fixed - Title Frame is the same color as the background  
+	Fixed - Many small potental Incompatabilities and code enhancements  
 1.3a -  Added - Buttons now always displayed in Alphabetical order
 	Added - Extra space between the frame edge and the buttons
 	Fixed - Show & Collect MBF button bug
@@ -144,21 +144,21 @@ If Active Scanning is off they will not be gathered unless you do a < /mbf scan 
 1.10e
         + Added support for EVTCalendar
 	
-Known Incompatibilities / Bugs
+## Known Incompatibilities / Bugs  
 
-	The MetaMap minimap button is incompatable because of the continual reseting of its position by the MetaMap addon.
+	The MetaMap minimap button is incompatable because of the continual reseting of its position by the MetaMap addon.  
 
-	The addon is unable grab minmap buttons that do not have a name.
-	Currently discovered addons that are this way are:
+	The addon is unable grab minmap buttons that do not have a name.  
+	Currently discovered addons that are this way are:  
 
-		CT Mod		( For information on how to fix that see the CT_Mod fix text file included in the addon package. )
-		Enchantrix 	( I have had a change request in with the developers for a while.  I don't think they're going to fix this. )
+		CT Mod		( For information on how to fix that see the CT_Mod fix text file included in the addon package. )  
+		Enchantrix 	( I have had a change request in with the developers for a while.  I don't think they're going to fix this. )  
 
 
-Future Features
+## Future Features  
 
-	Ability to choose the order the buttons are displayed in.  (v. 2.0)
+	Ability to choose the order the buttons are displayed in.  (v. 2.0)  
 
-	Ability to change the shape of the buttons (round, square) (v. 2.0)
+	Ability to change the shape of the buttons (round, square) (v. 2.0)  
 
-	Display minimap buttons on a fubar / titanbar addon.	   (will be a seperate addon that I'll start work on after v. 2.0 is finished)
+	Display minimap buttons on a fubar / titanbar addon.	   (will be a seperate addon that I'll start work on after v. 2.0 is finished)  
