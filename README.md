@@ -1,30 +1,30 @@
 # Minimap Button Frame Readme
 
 
-Installation is the same as most other WoW addons.  Simply unpack the file to your    Worldofwarcraft/Interface/Addons   directory.  
+Installation is the same as most other WoW addons.  Simply unpack the file to your    `Worldofwarcraft/Interface/Addons`   directory.  
 
 
 This addon gathers up all of your minimap addon buttons and puts them into a movable frame.  
 
-To Add a button not automatically gathered: Put your mouse over the button you want to add and type < /mbf add >.   
+To Add a button not automatically gathered: Put your mouse over the button you want to add and type `/mbf add`.   
 Will not work on unnamed buttons.  Can also use a key binding.  
-To Remove a button from the frame: put your mouse over the button and type < /mbf remove >.  A key binding can also be used.  
-It will return to it's previous spot and not be gathered next time.  You can set it to be gathered again by using < /mbf add > on it.  
+To Remove a button from the frame: put your mouse over the button and type `/mbf remove`.  A key binding can also be used.  
+It will return to it's previous spot and not be gathered next time.  You can set it to be gathered again by using `/mbf add` on it.  
 
 Blizzard minimap buttons that are not always visible (Battleground, LFG) will only appear on the frame when they are normally shown.  
 If Active Scanning is off they will not be gathered unless you do a < /mbf scan > while they are visible.  
 
 ## Commands:
 
-   /mbf        - displays the command line options in the chat frame  
-   /mbf add    - adds a non gathered button under the mouse to the frame  
-   /mbf remove - removes a gathered button under the mouse from the frame  
-   /mbf show   - shows the Main MBF Frame  
-   /mbf hide   - hides the Main MBF Frame  
-   /mbf info   - shows information about the object under the cursor  
-   /mbf scan   - performs a manual scan for minimap buttons  
-   /mbf config - shows the configuration screen  
-   /mbf help   - shows command help and information  
+   `/mbf`        - displays the command line options in the chat frame  
+   `/mbf add`    - adds a non gathered button under the mouse to the frame  
+   `/mbf remove` - removes a gathered button under the mouse from the frame  
+   `/mbf show`   - shows the Main MBF Frame  
+   `/mbf hide`   - hides the Main MBF Frame  
+   `/mbf info`   - shows information about the object under the cursor  
+   `/mbf scan`   - performs a manual scan for minimap buttons  
+   `/mbf config` - shows the configuration screen  
+   `/mbf help`   - shows command help and information  
 
 ## Minimap Button:
 
