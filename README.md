@@ -12,7 +12,7 @@ To Remove a button from the frame: put your mouse over the button and type `/mbf
 It will return to it's previous spot and not be gathered next time.  You can set it to be gathered again by using `/mbf add` on it.  
 
 Blizzard minimap buttons that are not always visible (Battleground, LFG) will only appear on the frame when they are normally shown.  
-If Active Scanning is off they will not be gathered unless you do a < /mbf scan > while they are visible.  
+If Active Scanning is off they will not be gathered unless you do a `/mbf scan` while they are visible.  
 
 ## Commands:
 
