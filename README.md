@@ -145,20 +145,21 @@ If Active Scanning is off they will not be gathered unless you do a < /mbf scan 
         + Added support for EVTCalendar
 	
 ## Known Incompatibilities / Bugs  
+The MetaMap minimap button is incompatable because of the continual reseting of its position by the MetaMap addon.  
 
-	The MetaMap minimap button is incompatable because of the continual reseting of its position by the MetaMap addon.  
+The addon is unable grab minmap buttons that do not have a name.  
 
-	The addon is unable grab minmap buttons that do not have a name.  
-	Currently discovered addons that are this way are:  
+Currently discovered addons that are this way are:  
 
-		CT Mod		( For information on how to fix that see the CT_Mod fix text file included in the addon package. )  
-		Enchantrix 	( I have had a change request in with the developers for a while.  I don't think they're going to fix this. )  
+CT Mod		( For information on how to fix that see the CT_Mod fix text file included in the addon package. )  
+
+Enchantrix 	( I have had a change request in with the developers for a while.  I don't think they're going to fix this. )  
 
 
 ## Future Features  
 
-	Ability to choose the order the buttons are displayed in.  (v. 2.0)  
+Ability to choose the order the buttons are displayed in.  (v. 2.0)  
 
-	Ability to change the shape of the buttons (round, square) (v. 2.0)  
+Ability to change the shape of the buttons (round, square) (v. 2.0)  
 
-	Display minimap buttons on a fubar / titanbar addon.	   (will be a seperate addon that I'll start work on after v. 2.0 is finished)  
+Display minimap buttons on a fubar / titanbar addon.	   (will be a seperate addon that I'll start work on after v. 2.0 is finished)  
