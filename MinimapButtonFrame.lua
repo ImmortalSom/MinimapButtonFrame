@@ -78,7 +78,7 @@ local MinimapShapes = {
 local BlizzButtons = { "MiniMapTrackingFrame", "MiniMapMeetingStoneFrame", "MinimapZoomIn", "MinimapZoomOut", "MiniMapMailFrame", "MiniMapBattlefieldFrame", "GameTimeFrame" };
 local BlizzUI = { "ActionBar", "BonusActionButton", "MainMenu", "ShapeshiftButton", "MultiBar", "KeyRingButton", "PlayerFrame", "TargetFrame", "PartyMemberFrame", "ChatFrame", "ExhaustionTick", "TargetofTargetFrame", "WorldFrame", "ActionButton", "CharacterMicroButton", "SpellbookMicroButton", "TalentMicroButton", "QuestLogMicroButton", "SocialsMicroButton", "LFGMicroButton", "HelpMicroButton", "CharacterBag", "PetFrame",  "MinimapCluster", "MinimapBackdrop", "UIParent", "WorldFrame", "Minimap", "BuffButton", "BuffFrame", "TimeManagerClockButton" };
 local UserUIProtected = { "TitanPanel", "AutoBarButton", "FuBarFrame", "RicoMinimap_CoordinatesFrame", "MinimapZoom", "MinimapButtonFrame", "Xparky", "MBFRestoreButton", "BasicMiniMap", "CT_RASetsFrame", "simpleMinimapFrame",};
-local MinimapIcons = { "Note", "JQuest", "Naut_", "MinimapIcon", "GatherMatePin", "WestPointer", "Chinchilla_", "SmartMinimapZoom","QuestieNote", "smm", "FishingExtra","pfMiniMapPin","Spy_","WIM","MinimapClock", "Clock", };
+local MinimapIcons = { "Note", "JQuest", "Naut_", "MinimapIcon", "GatherMatePin", "WestPointer", "Chinchilla_", "SmartMinimapZoom","QuestieNote", "smm", "FishingExtra","pfMiniMapPin","Spy_","WIM","MinimapClock", "Clock", "WIM_IconFrameButton", "RecipeRadarMinimapButton", "AtlasButton", "DifficultBulletinBoard_MinimapButtonFrame"};
 local ParentStop = { "WorldFrame", "Minimap", "MinimapBackdrop", "UIParent", "MinimapCluster", "CECBMiniMapButtonFrame", "CT_RASetsFrame", "simpleMinimapFrame" };
 
 MBF_Default_Ignore = { "MetamapButton" };
